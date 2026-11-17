@@ -39,5 +39,3 @@ def pedir_peso():
            break
       
 pedir_peso()
-
-
