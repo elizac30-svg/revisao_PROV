@@ -1,4 +1,3 @@
-
 import json
 import os
 from datetime import datetime
@@ -139,7 +138,6 @@ def remover_show(shows):
     print(f'Show de {show["artista"]} removido.')
 
 
-# PROGRAMA PRINCIPAL
 if __name__ == "__main__":
 
     shows = carregar_shows()

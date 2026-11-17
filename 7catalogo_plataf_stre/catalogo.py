@@ -1,4 +1,3 @@
-
 import json
 
 
@@ -92,7 +91,7 @@ def estatisticas(catalogo):
     print(f"Gêneros: {', '.join(generos)}")
 
 
-# PROGRAMA PRINCIPAL
+
 if __name__ == "__main__":
 
     catalogo = carregar_catalogo()

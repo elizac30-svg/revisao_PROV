@@ -1,4 +1,3 @@
-
 import banco_estoque
 
 
@@ -24,7 +23,6 @@ def mostrar_produtos(produtos):
         )
 
 
-# PROGRAMA PRINCIPAL
 if __name__ == "__main__":
 
     conn = banco_estoque.conectar()

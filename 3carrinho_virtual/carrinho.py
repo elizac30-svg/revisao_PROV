@@ -34,7 +34,7 @@ def valor_parcela(total, parcelas=1):
         return total * (1 + 0.02 * parcelas) / parcelas
 
 
-# PROGRAMA PRINCIPAL
+
 if __name__ == "__main__":
 
     print("=== LOJA VIRTUAL ===")

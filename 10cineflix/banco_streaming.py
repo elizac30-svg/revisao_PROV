@@ -1,4 +1,3 @@
-
 import sqlite3
 import json
 from datetime import datetime
@@ -36,7 +35,6 @@ def conectar():
 
     conn.commit()
 
-    # Importa o catálogo somente se a tabela estiver vazia
     cursor.execute("SELECT COUNT(*) FROM titulos")
     quantidade = cursor.fetchone()[0]
 

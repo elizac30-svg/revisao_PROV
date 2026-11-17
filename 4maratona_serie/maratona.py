@@ -1,4 +1,3 @@
-
 def formatar_duracao(minutos):
     horas = minutos // 60
     resto = minutos % 60
@@ -36,7 +35,7 @@ def classificar_maratona(total_minutos):
         return "Intensa"
 
 
-# PROGRAMA PRINCIPAL
+
 if __name__ == "__main__":
 
     print("=== MARATONA DE SÉRIE ===")

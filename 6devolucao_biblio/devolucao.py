@@ -1,4 +1,3 @@
-
 import multas
 from datetime import date
 

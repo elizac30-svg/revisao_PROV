@@ -1,4 +1,3 @@
-
 def ler_texto(mensagem, vazio=False):
     texto = input(mensagem)
 
