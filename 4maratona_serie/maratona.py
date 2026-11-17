@@ -7,7 +7,7 @@ def formatar_duracao(minutos):
     else:
         return f"{resto}min"
 
-
+HGFTVHG
 def tempo_total(duracoes):
     total = 0
 
